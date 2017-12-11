@@ -1,0 +1,99 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/go_back"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="30px"
+        android:background="@color/main_044041"
+        android:text="注销"
+        android:textColor="@color/white"
+        android:textSize="22px"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30px"
+        android:background="@color/main_044041"
+        android:text="退出"
+        android:textColor="@color/white"
+        android:textSize="22px" />
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible">
+
+        <com.zhy.autolayout.AutoFrameLayout
+            android:id="@+id/video_contener"
+            android:layout_width="650px"
+            android:layout_height="360px"
+            android:background="@color/black"
+            app:layout_auto_basewidth="height" />
+
+        <Button
+            android:id="@+id/live_play"
+            android:layout_width="315px"
+            android:layout_height="150px"
+            android:layout_alignBottom="@+id/record_play"
+            android:background="#044041"
+            android:text="直播"
+            android:textColor="@color/white"
+            android:textSize="60px"
+            app:layout_auto_basewidth="height" />
+
+        <Button
+            android:id="@+id/record_play"
+            android:layout_width="315px"
+            android:layout_height="150px"
+            android:layout_below="@+id/video_contener"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:layout_toRightOf="@+id/live_play"
+            android:background="#044041"
+            android:text="点播"
+            android:textColor="@color/white"
+            android:textSize="60px"
+            app:layout_auto_basewidth="height" />
+
+        <ImageView
+            android:id="@+id/guanggao1"
+            android:layout_width="255px"
+            android:layout_height="255px"
+            android:layout_marginLeft="20px"
+            android:layout_toRightOf="@+id/video_contener"
+            android:background="#044041"
+            android:scaleType="fitXY"
+            android:textColor="@color/white"
+            app:layout_auto_basewidth="height" />
+
+        <ImageView
+            android:id="@+id/guanggao2"
+            android:layout_width="255px"
+            android:layout_height="255px"
+            android:layout_below="@+id/guanggao1"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="25px"
+            android:layout_toRightOf="@+id/video_contener"
+            android:background="#044041"
+            android:scaleType="fitXY"
+            android:textColor="@color/white"
+            app:layout_auto_basewidth="height" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>

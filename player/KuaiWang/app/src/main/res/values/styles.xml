@@ -1,0 +1,104 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="item_input_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@drawable/textfield_selector</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="item_input_edittext">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">58dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/main_black</item>
+        <item name="android:textColorHint">@color/main_gray</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="text_size_15_white" parent="text_size_15_default">
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+    <style name="text_size_15_default" parent="text_size_default">
+        <item name="android:textSize">@dimen/text_size_15</item>
+    </style>
+
+    <style name="text_size_default" parent="wrap_wrap">
+        <item name="android:textSize">@dimen/text_size_13</item>
+        <item name="android:textColor">@color/text_default</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="confirm_dialog" parent="android:style/Theme.Dialog">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 自己想要的背景 -->
+        <item name="android:windowBackground">@drawable/rect_bg_transparent</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="text_size_16_default" parent="text_size_default">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style name="text_size_10_white" parent="text_size_10_default">
+        <item name="android:textColor">@color/text_gray</item>
+    </style>
+
+    <style name="text_size_10_default" parent="text_size_default">
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+
+    <style name="text_size_14_white" parent="text_size_14_default">
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+    <style name="text_size_14_default" parent="text_size_default">
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+
+    <style name="video_loading">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/video_loading_animated</item>
+        <item name="android:indeterminateDuration">1000</item>
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+
+    <style name="loading">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/play_video_loading</item>
+        <item name="android:indeterminateDuration">1000</item>
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+
+    <style name="text_size_16_white" parent="text_size_16_default">
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+</resources>

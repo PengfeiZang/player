@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_video"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <cn.com.tv.videoplayer.media.IjkVideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <cn.com.tv.videoplayer.utils.MyTextView
+        android:id="@+id/tv_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rl_bottombar"
+        android:layout_marginBottom="10px"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="30px"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:shadowColor="@color/black"
+        android:shadowRadius="1"
+        android:singleLine="true"
+        android:text="www"
+        android:textColor="@color/white"
+        android:textSize="24px" />
+
+    <ImageButton
+        android:id="@+id/go_back"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="30px"
+        android:background="@drawable/left" />
+
+    <include
+        android:id="@+id/rl_bottombar"
+        layout="@layout/view_play_video_bottom_bar" />
+
+
+    <include
+        layout="@layout/view_play_video_status"
+        android:visibility="visible" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

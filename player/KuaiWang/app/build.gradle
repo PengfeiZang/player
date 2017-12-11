@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion = 23
+    buildToolsVersion = "23.0.1"
+    defaultConfig {
+        applicationId "cn.com.tv.videoplayer"
+        minSdkVersion 14
+        //noinspection GradleCompatible
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //    provided files('libs/runtime/unicompay_ref.jar')
+    compile 'com.loopj.android:android-async-http:1.4.7'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.google.code.gson:gson:2.4'
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile project(':ijkplayer-java')
+    compile project(':ijkplayer-exo')
+    compile project(':ijkplayer-armv7a')
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.5.0'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+    compile 'com.zhy:autolayout:1.4.5'
+}

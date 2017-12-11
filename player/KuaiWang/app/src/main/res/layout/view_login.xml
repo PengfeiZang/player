@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                style="@style/item_input_container"
+                android:layout_height="100px"
+                android:background="@color/transparent"
+                android:paddingLeft="200px"
+                android:paddingRight="100px">
+
+                <AutoCompleteTextView
+                    android:id="@+id/ip"
+
+                    style="@style/item_input_edittext"
+                    android:layout_height="100px"
+                    android:layout_marginLeft="12px"
+                    android:hint="请输入IP："
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="#ccc"
+                    android:textSize="24px" />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <ImageView
+                android:id="@+id/et_user_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="200px"
+                android:layout_marginRight="200px"
+                android:background="#d5d5d5" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                style="@style/item_input_container"
+                android:layout_height="100px"
+                android:background="@color/transparent"
+                android:paddingLeft="200px"
+                android:paddingRight="100px">
+
+                <AutoCompleteTextView
+                    android:id="@+id/name"
+                    style="@style/item_input_edittext"
+                    android:layout_height="100px"
+                    android:layout_marginLeft="12px"
+                    android:hint="请输入账号："
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="#ccc"
+                    android:textSize="24px" />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <ImageView
+                android:id="@+id/et_pass_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="200px"
+                android:layout_marginRight="200px"
+                android:background="#d5d5d5" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                style="@style/item_input_container"
+                android:layout_height="100px"
+                android:background="@color/transparent"
+                android:paddingLeft="100px"
+                android:paddingRight="100px">
+
+                <AutoCompleteTextView
+                    android:id="@+id/mima"
+                    style="@style/item_input_edittext"
+                    android:layout_height="100px"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="100px"
+                    android:hint="请输入密码："
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="textPassword"
+                    android:maxLength="20"
+                    android:textColor="@color/white"
+                    android:textColorHint="#ccc"
+                    android:textSize="24px" />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="200px"
+                android:layout_marginRight="200px"
+                android:background="#d5d5d5" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="200px"
+            android:layout_marginRight="200px"
+            android:layout_marginTop="100px"
+            android:background="@color/main_044041"
+            android:onClick="login"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textSize="36px" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

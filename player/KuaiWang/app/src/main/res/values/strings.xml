@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">快网</string>
+    <string name="cancel">取消</string>
+    <string name="make_sure">确定</string>
+    <string name="video_exit">退出</string>
+    <string name="play_video_status_no_find_course">视频找不到</string>
+    <string name="video_loading_failed">加载失败</string>
+    <string name="video_stay_here">取消</string>
+    <string name="no_data">没有数据</string>
+
+    <string name="net_error">网络出错</string>
+    <string name="net_lost">网络君失联中</string>
+    <string name="parser_error">解析数据异常</string>
+    <string name="net_error_title">网络不给力哦</string>
+    <string name="servicer_error_title">服务器出错了\n我们都有出错的时候~</string>
+
+    <string name="refresh_data">刷新数据...</string>
+    <string name="complete">完成</string>
+    <string name="next">下一步</string>
+    <string name="copy_success">复制成功</string>
+    <string name="deleting">正在删除…</string>
+    <string name="uploading">正在上传…</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_failed">删除失败</string>
+    <string name="loading">努力加载中…</string>
+    <string name="loading_failed">数据加载失败</string>
+    <string name="loading_failed_no_click">加载失败</string>
+    <string name="loading_no_more">没有更多内容了</string>
+    <string name="network_error">网络偷懒了哟亲</string>
+    <string name="cancel_success">取消成功</string>
+    <string name="cancel_failed">取消失败</string>
+    <string name="me">我</string>
+    <string name="video_first_loading">即将开始学习:</string>
+</resources>

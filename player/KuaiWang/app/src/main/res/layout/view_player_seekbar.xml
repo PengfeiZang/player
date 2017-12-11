@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <cn.com.tv.videoplayer.dialog.PlayerProgressBar
+        android:id="@+id/player_progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:maxHeight="@dimen/space_2"
+        android:minHeight="@dimen/space_2"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:progress="0"
+        android:progressDrawable="@drawable/video_seekbar_progress"
+        app:Player_Point_Height="@dimen/space_3"
+        app:Player_Point_Width="@dimen/space_3"
+        app:Player_Student_Point_Background="#94EEFA"
+        app:Player_Teacher_Point_Background="#F6E95A" />
+
+    <cn.com.tv.videoplayer.dialog.NoPaddingSeekBar
+        android:id="@+id/player_seekbar_thumb"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:maxHeight="@dimen/space_2"
+        android:minHeight="@dimen/space_2"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:progress="0"
+        android:progressDrawable="@drawable/video_seekbar_thumb"
+        android:thumb="@drawable/video_progress_btn_selector"
+        android:thumbOffset="0dp" />
+</FrameLayout>

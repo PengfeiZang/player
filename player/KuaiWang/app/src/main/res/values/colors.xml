@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 常用颜色值 -->
+    <color name="transparent">#00000000</color>
+    <color name="transparent_black">#80000000</color>
+    <color name="white40">#40FFFFFF</color>
+    <color name="white55">#55FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#fbf9f9</color>
+    <color name="line_">#e1e0e0</color>
+    <color name="hui">#fbf9f9</color>
+    <color name="cheng">#fd8300</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="lemon_yellow">#FFFACD</color>
+    <color name="gray_white">#F5F5F5</color>
+    <color name="gray_slate">#708090</color>
+    <color name="dark_orange">#FF9021</color>
+    <color name="light_green">#D4FFD8</color>
+    <color name="light_gray">#1a000000</color>
+    <color name="light_black">#666666</color>
+
+
+    <!-- 应用主色调 -->
+    <color name="main_044041">#044041</color>
+    <color name="main_blue">#198FEE</color>
+    <color name="main_gray">#9A9A9A</color>
+    <color name="main_black">#333333</color>
+    <color name="main_orange">#FF711B</color>
+    <color name="main_layout_bg">#F3F5F7</color>
+    <color name="main_12b7f5">#12b7f5</color>
+    <color name="main_2bb4ec">#2bb4ec</color>
+    <color name="main_click_color">#F3F4F7</color>
+    <color name="main_6b">#bbbbbb</color>
+    <color name="progress_color">#e6f1fc</color>
+    <color name="item_f9">#f9f9f9</color>
+    <color name="pro_bg">#e8eef4</color>
+    <color name="pro_index">#cbf5fb</color>
+    <color name="main_4abdcc">#4abdcc</color>
+    <color name="main_d7d7d7">#d7d7d7</color>
+    <color name="main_f3f4f4">#f3f4f4</color>
+    <color name="main_ff4d3f">#ff4d3f</color>
+    <color name="main_e9e9e9">#e9e9e9</color>
+
+    <color name="text_66">#666666</color>
+    <color name="text_88">#888888</color>
+    <color name="text_6b">#bbbbbb</color>
+    <color name="text_6d">#dddddd</color>
+    <color name="text_6c">#cccccc</color>
+    <color name="text_08">#080808</color>
+    <color name="text_default">#333333</color>
+    <color name="text_white">#ffffff</color>
+    <color name="text_gray">#999999</color>
+    <color name="text_black">#333333</color>
+    <color name="text_green">#1AB750</color>
+    <color name="text_cyan">#81C636</color>
+    <color name="text_blue">#198FEE</color>
+    <color name="text_red">#EE3C19</color>
+    <color name="item_background">#f7f7f7</color>
+    <color name="text_light_green">#AAFFC7</color>
+    <color name="text_orange">#FF711B</color>
+    <color name="text_light">#3f000000</color>
+    <color name="text_ren">#ff7ea4</color>
+    <color name="text_ren2">#ff7a79</color>
+    <color name="text_aa">#a4a4a4</color>
+    <color name="text_zhong">#714c2d</color>
+    <color name="text_light_gray">#f1f1f1</color>
+    <color name="text_5c6273">#5c6273</color>
+    <color name="text_3ea2af">#3ea2af</color>
+    <color name="text_ff711b">#ff711b</color>
+    <color name="text_c5cdcf">#c5cdcf</color>
+    <color name="text_bac1c3">#bac1c3</color>
+    <color name="text_41bbcb">#41bbcb</color>
+    <color name="text_b2b1b1">#b2b1b1</color>
+    <color name="text_4abdcc">#4abdcc</color>
+    <color name="text_54371b">#54371b</color>
+    <color name="text_c12c20">#c12c20</color>
+    <color name="text_634229">#634229</color>
+    <color name="text_c7c5c5">#c7c5c5</color>
+    <color name="text_e1382e">#e1382e</color>
+    <color name="text_978672">#978672</color>
+    <color name="text_7f3023">#7f3023</color>
+    <color name="text_fa810b">#fa810b</color>
+    <color name="text_fff701">#fff701</color>
+
+    <color name="homework_bg">#f3f5f7</color>
+    <color name="card_bg">#13b7f6</color>
+    <color name="card_bg2">#E3f6ff</color>
+    <color name="card_line">#14a0d6</color>
+    <color name="line_bg_default">#ECECEC</color>
+    <color name="line_bg_white">#F6F7F1</color>
+    <color name="line_bg_orange">#FF9021</color>
+    <color name="line_bg_gray">#DADADA</color>
+    <color name="line_bg_blue">#198FEE</color>
+    <color name="line_bg_black">#af000000</color>
+    <color name="line_bg_light_green">#AAFFC7</color>
+    <color name="line_bg_6e">#EEEEEE</color>
+    <color name="line_bg_primary_color">#4abdcc</color>
+    <color name="line_bg_fc">#FCFCFC</color>
+    <color name="line_bg_f4">#F4F4F4</color>
+    <color name="line_bg_dcdedf">#DCDEDF</color>
+    <color name="video_gray">#aa000000</color>
+    <color name="video_loading_failed_bg">#083d32</color>
+    <color name="login_dddddd">#dddddd</color>
+
+
+    <color name="item_f8f7f7">#f8f7f7</color>
+    <color name="item_eeeeee">#eeeeee</color>
+
+    <color name="filter_interest_middle_text_color">#FFAE44</color>
+    <color name="filter_interest_middle_text_color2">#F88538</color>
+    <color name="right_answer">#00BE31</color>
+    <color name="wrong_answer">#FF3F3F</color>
+    <color name="chat_teavher">#E56600</color>
+    <color name="no_speak">#BBBBBB</color>
+    <color name="chat_name">#AFAFAF</color>
+    <color name="chat_replay">#FFD47F</color>
+
+    <color name="time_tip">#ff7f02</color>
+    <color name="line_gray">#EDEDED</color>
+    <color name="line_big_live_play">#F6F6F6</color>
+    <color name="my_green">#5FB800</color>
+    <color name="answer_states">#8FCDFF</color>
+
+    <color name="rookie_guide_blue">#3FB0FF</color>
+    <color name="blue_10acec">#10acec</color>
+    <color name="rookie_guide_point_color">#86DBDC</color>
+    <color name="rookie_guide_btn_color">#F15755</color>
+
+    <color name="user_level_seekbar_progress_color">#FF6C00</color>
+    <color name="btn_not_click">#acdaff</color>
+    <color name="mine_header_bg_blue">#07A5FF</color>
+    <color name="card_num">#07719c</color>
+    <color name="group_chat_name_color_1">#f1da3e</color>
+    <color name="group_chat_name_color_2">#ffffff</color>
+
+    <color name="login_sms_code_selected_background">#fff</color>
+    <color name="login_sms_code_background">#4abdcc</color>
+    <color name="interest_btn_no_enabled">#A4DBD5</color>
+    <color name="interest_btn_enabled">#4ABDCC</color>
+    <color name="login_button_enabled">#5BC2D0</color>
+    <color name="login_button_no_enabled">#CFCFCF</color>
+    <color name="btn_bg_ff6100">#ff6100</color>
+    <color name="btn_bg_a19f9f">#a19f9f</color>
+    <color name="btn_bg_30b2e4">#30b2e4</color>
+
+    <color name="short_line">#d0d0d0</color>
+
+</resources>
